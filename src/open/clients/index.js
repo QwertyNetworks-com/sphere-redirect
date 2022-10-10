@@ -24,18 +24,20 @@ import {Fluffychat} from "./Fluffychat.js";
 import {NeoChat} from "./NeoChat.js";
 import {Syphon} from "./Syphon.js";
 import {Thunderbird} from "./Thunderbird.js";
+import {Sphere} from "./Sphere.js"
 
 export function createClients() {
     return [
-        new Element(),
-        new Weechat(),
-        new Nheko(),
-        new Fractal(),
-        new Quaternion(),
-        new Tensor(),
-        new Fluffychat(),
-        new NeoChat(),
-        new Syphon(),
-        new Thunderbird(),
+        // new Element(),
+        // new Weechat(),
+        // new Nheko(),
+        // new Fractal(),
+        // new Quaternion(),
+        // new Tensor(),
+        // new Fluffychat(),
+        // new NeoChat(),
+        // new Syphon(),
+        // new Thunderbird(),
+        new Sphere(),
     ];
 }
