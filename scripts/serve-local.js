@@ -36,7 +36,7 @@ const serve = serveStatic(
         index: ['index.html', 'index.htm']
     }
 );
- 
+
 // Create server
 const server = http.createServer(function onRequest (req, res) {
     console.log(req.method, req.url);
@@ -44,5 +44,5 @@ const server = http.createServer(function onRequest (req, res) {
 });
 
 // Listen
-server.listen(5500);
+server.listen(8899);
 console.log("Listening on port 5500");
