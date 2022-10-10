@@ -33,7 +33,7 @@ const trustedWebInstances = [
 /**
  * Information on how to deep link to a given matrix client.
  */
-export class Element {
+export class Sphere {
     get id() { return "element.io"; }
 
     get platforms() {
