@@ -44,12 +44,12 @@ export class Sphere {
         ];
     }
 
-    get icon() { return "images/client-icons/element.svg"; }
+    get icon() { return "images/client-icons/sphere.svg"; }
     get appleAssociatedAppId() { return "7J4U792NQT.im.vector.app"; }
-    get name() {return "Element"; }
-    get description() { return 'Fully-featured Matrix client, used by millions.'; }
-    get homepage() { return "https://element.io"; }
-    get author() { return "Element"; }
+    get name() {return "Sphere Chat"; }
+    get description() { return 'A secure messaging service.'; }
+    get homepage() { return "https://sphere.chat"; }
+    get author() { return "Qwertynetworks LLC"; }
     getMaturity(platform) { return Maturity.Stable; }
 
     getDeepLink(platform, link) {
